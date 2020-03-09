@@ -1,0 +1,25 @@
+.TODOList{
+    list-style: none;
+}
+.done{
+    text-decoration-line: line-through;
+}
+.delete{
+   display: none;
+}
+.keep{
+    display:flex
+}
+.header{
+    background-color: #4696e5;
+    height: 300px;
+    color:white;
+    text-align: right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+}
+.header input{
+    width:100%
+}
